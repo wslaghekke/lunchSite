@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "webpack": "latest",
+    "url-loader": "latest",
+    "file-loader": "latest",
+    "css-loader": "latest",
+    "style-loader": "latest",
+    "less": "latest",
+    "less-loader": "latest",
+    "bootstrap": "^3.3.6",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "jquery": "^2.0.0"
+  }
+}

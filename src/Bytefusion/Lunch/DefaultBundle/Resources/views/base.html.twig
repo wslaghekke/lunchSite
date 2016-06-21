@@ -1,0 +1,8 @@
+{% extends '::base.html.twig' %}
+{% block title %}Lunchsite{% endblock %}
+{% block stylesheets %}<link rel="stylesheet" href="{{ asset('assets/main.css') }}">{% endblock %}
+{% block body %}{% endblock %}
+{% block javascripts %}
+    {% if app.environment == "dev" %}<script src="{{ asset('webpack-dev-server.js') }}"></script>{% endif %}
+    <script type="text/javascript" src="{{ asset('assets/bundle.js') }}"></script>
+{% endblock %}
